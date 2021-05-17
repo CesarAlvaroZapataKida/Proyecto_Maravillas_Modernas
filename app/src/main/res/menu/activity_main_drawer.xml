@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/casa"
+            android:icon="@drawable/casa_icono"
+            android:title="Casa" />
+        <item
+            android:id="@+id/calculadora"
+            android:icon="@drawable/calculadora_icono"
+            android:title="Calculadora" />
+        <item
+            android:id="@+id/sonido"
+            android:icon="@drawable/sonido_icono"
+            android:title="Musica" />
+        <item
+            android:id="@+id/web"
+            android:icon="@drawable/icono_web"
+            android:title="Web" />
+        <item
+            android:id="@+id/app"
+            android:icon="@drawable/app_icono"
+            android:title="App" />
+        <item
+            android:id="@+id/maravillas"
+            android:icon="@drawable/maravillas_icono"
+            android:title="Maravillas Modernas" />
+        <item
+            android:id="@+id/videopropuesta"
+            android:icon="@drawable/propuesta_icono"
+            android:title="Propuesta" />
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+
+    </group>
+</menu>

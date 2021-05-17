@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".maravillas">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#C02909">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/font1"
+                android:text="MaraVillas Modernas" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:text="Las siete nuevas maravillas el Mundo Moderno se ganaron a pulso su puesto. Estos siete monumentos de todo el mundo fueron elegidos por más de 90 millones de personas en 2007, cuando la empresa privada New Open World Corporation organizó un concurso a nivel mundial para que fueran los propios habitantes de la Tierra quienes escogieran a sus siete nuevas maravillas. El resultado fue apretado, y 21 ciudades y obras arquitectónicas de todos los continentes levantadas hasta el año 2000 llegaron a la fase final. Entre ellas destacaban construcciones modernas como la Ópera de Sidney (Australia), la estatua de la Libertad, el icono más reconocido de Estados Unidos, la Torre Eiffel en Francia, el Acrópolis de Atenas y la Alhambra de Granada. Sin embargo, ninguna de ellas logró colarse en el septeto vencedor, que finalmente fue este:" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:fontFamily="@font/font1"
+                android:textSize="20dp"
+                android:text="
+Estas son las 7 nuevas maravillas del mundo:" />
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="@color/white"
+                android:fontFamily="@font/font1"
+                android:textSize="20dp"
+                android:text="
+Petra, Jordania:" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="211dp"
+                android:layout_height="105dp"
+                android:layout_gravity="center"
+                android:src="@drawable/petra" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:text="Petra es la primera de las siete nuevas maravillas del Mundo Moderno. Esta ciudad de Jordania, originalmente conocida como Raqmu, es famosa por su arquitectura excavada en la roca además de por sus avanzado sistema de conductos de agua. Petra, constituida posiblemente ya en el 312 a.C como la capital de los nabateos árabes, es un símbolo de Jordania, además de uno de los principales atractivos turísticos del país, más, desde que en 2007 fuese elegida como una de las 7 maravillas del mundo moderno." />
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="@color/white"
+                android:fontFamily="@font/font1"
+                android:textSize="20dp"
+                android:text="Taj Mahal, India" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="211dp"
+                android:layout_height="105dp"
+                android:layout_gravity="center"
+                android:src="@drawable/talh" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:text="La ciudad de Agra, en el estado Uttar Pradesh de India acoge al segundo de los monumentos designado como las 7 maravillas del mundo moderno declarado también como bien Patrimonio de la Humanidad por la Unesco. Se trata del Taj Mahal, una construcción funeraria levantada en el siglo XVII bajo encargo del emperador Shah Jahan en honor a su esposa favorita, Mumtaz Mahal. De hecho, la tumba es la pieza central de un complejo de 42 acres que incluye una mezquita y una casa de huéspedes además de los jardines."
+                />
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="@color/white"
+                android:fontFamily="@font/font1"
+                android:textSize="20dp"
+                android:text="Machu Picchu, Perú" />
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="211dp"
+                android:layout_height="105dp"
+                android:layout_gravity="center"
+                android:src="@drawable/machu" />
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:text="La tercera de la siete maravillas del mundo moderno data del siglo XV. Se trata de la ciudad inca del
+                 Machu Picchu, en la región de Cusco, en Perú. Situada en la cresta de una montaña a 2.430 metros sobre el nivel del
+                 mar, esta construcción de estilo clásico Inca, que los arqueólogos relacionan con una finca pensada para albergar al e
+                 mperador inca Pachacuti, cuenta con tres estructuras principales, el Inti Watana, el Templo del Sol y la Sala de las
+                 Tres Ventanas, y varios edificios
+                  periféricos, de los que gran parte han sido reconstruidos para dar una mejor idea a los turistas de cómo era la ciudadela original."
+                />
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="@color/white"
+                android:fontFamily="@font/font1"
+                android:textSize="20dp"
+                android:text="Chichén Itzá, en México" />
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="211dp"
+                android:layout_height="105dp"
+                android:layout_gravity="center"
+                android:src="@drawable/chique" />
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:text="Chichén Itzá también se cuela entre las 7 nuevas maravillas del Mundo Moderno. Se trata de uno de los principales sitios arqueológicos de la península de Yucatán, en México que originalmente dio forma a una ciudad maya de la época precolombina dominada por el templo de Kukulkán, también conocido como ElCastillo, nombre con el que lo bautizaron los conquistadores españoles. Esta construcción sirvió como templo para el dios Kukulkán y consiste en una pirámide con una serie de terrazas cuadradas con escaleras que suben desde cada uno de los cuatro lados la misma hasta la parte superior."
+                />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="@color/white"
+                android:fontFamily="@font/font1"
+                android:textSize="20dp"
+                android:text="El Coliseo, Roma" />
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="211dp"
+                android:layout_height="105dp"
+                android:layout_gravity="center"
+                android:src="@drawable/roma" />
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:text="La quinta de la siete maravillas del del Mundo Moderno está en Roma, la capital de Italia. Se trata de su construcción más famosa y reconocible: el anfiteatro Flavio o Coliseo. Esta edificación, la más grande jamás llevada a cabo en su categoría, data del siglo I y actualmente es una de las más representativas de la época del Imperio romano así como de la Antigüedad clásica en su conjunto. Se estima que el Coliseo podría albergar entre 50.000 y 80.000 espectadores, que podían acudir hasta él para ver representaciones públicas como simulacros de batallas navales o dramas basados en la mitología clásica así como concursos de gladiaores."
+                />
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="@color/white"
+                android:fontFamily="@font/font1"
+                android:textSize="20dp"
+                android:text="La Gran Muralla china" />
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="211dp"
+                android:layout_height="105dp"
+                android:layout_gravity="center"
+                android:src="@drawable/china" />
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:text="No escapa de la lista la Gran Muralla China. Esta serie de fortificaciones de piedra, ladrillo, madera y tierra apisonada que recorre las fronteras históricas del norte de China construida entre el siglo V a. C y el XVI sirvió como protección para el imperio chino en la histórica frontera del norte del país, en la que fue recurrentemente atacado por nómadas de Mongolia y Manchuria."
+                />
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="@color/white"
+                android:fontFamily="@font/font1"
+                android:textSize="20dp"
+                android:text="Cristo Redentor de Río de Janeiro" />
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="211dp"
+                android:layout_height="105dp"
+                android:layout_gravity="center"
+                android:src="@drawable/cristo" />
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:text="
+Por último, aunque no menos importante en la clasificación, es también una de las 7 nuevas maravillas del Mundo Moderno la escultura del Cristo Redentor de Río de Janeiro, en Brasil. Se trata de una estatua de 30 metros de altura y diseño Art Decó que corona la montaña de Corcovado representando el cuerpo de Jesús de Nazaret. Esta obra, inaugurada en 1931 fue fruto del trabajo de las manos del escultor polaco-fracés Paul Landowski y el ingeniero brasileño Heitor da Silva Costa, quienes también contaron con la colaboración del francés Albert Caquot y del artista rumano Gheorge Leonida, siendo este último responsable de la cara de Cristo."
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
